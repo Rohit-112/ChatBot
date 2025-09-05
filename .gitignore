@@ -1,0 +1,74 @@
+# Built application files
+*.apk
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+build/
+
+# Gradle files
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle/
+gradle-app.setting
+gradle-app.setting.lock
+gradle.properties
+
+# Local configuration file (sdk path, keystore passwords, etc.)
+local.properties
+
+# IntelliJ/Android Studio files
+.idea/
+*.iml
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# NDK / CMake
+.externalNativeBuild
+.cxx/
+
+# Android Studio captures
+captures/
+
+# Google Services (API keys, etc.)
+google-services.json
+GoogleService-Info.plist
+
+# Keystore files (don’t commit your signing keys!)
+*.jks
+*.keystore
+
+# Gradle crash logs
+*.log
+
+# Firebase Crashlytics
+crashlytics-build.properties
+fabric.properties
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
+
+# Misc
+*.hprof
