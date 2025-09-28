@@ -1,7 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
-    id("com.google.dagger.hilt.android")
     kotlin("kapt")
 }
 
@@ -49,6 +48,4 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
 
     implementation("com.google.dagger:hilt-android:2.57.1")
-    kapt("com.google.dagger:hilt-compiler:2.57.1")
-
 }
