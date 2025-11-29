@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.chatbot"
+    namespace = "com.map"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.chatbot"
+        applicationId = "com.map"
         minSdk = 24
         targetSdk = 36
         versionCode = 1

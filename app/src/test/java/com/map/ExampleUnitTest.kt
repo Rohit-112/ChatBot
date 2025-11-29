@@ -1,4 +1,4 @@
-package com.chatbot
+package com.map
 
 import org.junit.Test
 
