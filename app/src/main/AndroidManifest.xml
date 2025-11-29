@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ChatBot">
         <activity
-            android:name=".MainActivity"
+            android:name=".ChatBotMainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
