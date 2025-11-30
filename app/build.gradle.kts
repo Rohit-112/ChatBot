@@ -39,15 +39,14 @@ dependencies {
     testImplementation(libs.junit)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
-    implementation(libs.material)
+//    implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
-
-    implementation("com.google.dagger:hilt-android:2.57.1")
-
-    implementation("com.google.android.gms:play-services-maps:19.2.0")
-    implementation("androidx.recyclerview:recyclerview:1.4.0")
-    implementation("com.google.android.material:material:1.13.0")
-    implementation("com.squareup.retrofit2:retrofit:3.0.0")
-    implementation("com.squareup.retrofit2:converter-gson:3.0.0")
+    implementation(libs.google.material)
+    implementation(libs.hilt.android)
+    implementation(libs.play.services.maps)
+    implementation(libs.androidx.recyclerview)
+    implementation(libs.google.material)
+    implementation(libs.retrofit)
+    implementation(libs.converter.gson)
 }
